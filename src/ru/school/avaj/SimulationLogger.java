@@ -39,7 +39,7 @@ public class SimulationLogger {
 	}
 
 	public void speak(Aircraft aircraft, String message) {
-		write(String.format("%s: %s %s", aircraft, message, aircraft.getCoordinates()));
+		write(String.format("%s: %s", aircraft, message));
 	}
 
 	public void landing(Aircraft aircraft) {
